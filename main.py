@@ -8,3 +8,7 @@ def init-model():
 #initializing model
 model = logisticRegression(max_iter=10)
 return model
+
+def preprocess-data(df):
+print ("heandling missing values...")
+return df

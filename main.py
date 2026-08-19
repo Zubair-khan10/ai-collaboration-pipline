@@ -1,14 +1,15 @@
 import pandas as pd
+from sklearn.linear_model import LogisticRegression
+
 def load_data():
-print("data loading...")
-return pd.dataframe()
-fromsklearn.lonear-model import logisticRegression
+    print("data loading...")
+    return pd.DataFrame()   # Correct DataFrame
 
-def init-model():
-#initializing model
-model = logisticRegression(max_iter=10)
-return model
+def init_model():
+    # initializing model
+    model = LogisticRegression(max_iter=500)   # ✅ yahan tumhe conflict generate karna hai
+    return model
 
-def preprocess-data(df):
-print ("heandling missing values...")
-return df
+def preprocess_data(df):
+    print("handling missing values...")
+    return df

@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 
 def load_data():
     print("data loading...")
-    return pd.DataFrame()   # Correct DataFrame
+    return pd.DataFrame()
 
 def init_model():
     # initializing model

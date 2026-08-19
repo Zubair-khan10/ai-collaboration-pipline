@@ -7,7 +7,7 @@ def load_data():
 
 def init_model():
     # initializing model
-    model = LogisticRegression(max_iter=500)   # ✅ yahan tumhe conflict generate karna hai
+    model = LogisticRegression(max_iter=100)   # Student B ka change
     return model
 
 def preprocess_data(df):
